@@ -1,0 +1,43 @@
+{
+  "name": "playwright-opus-qa",
+  "version": "1.0.0",
+  "description": "Playwright plugin that uses Claude Opus to visually QA any web app",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "playwright",
+    "visual-qa",
+    "ai",
+    "claude",
+    "opus",
+    "testing",
+    "accessibility",
+    "web-vitals",
+    "screenshot",
+    "automation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DRJ-Technologies/playwright-opus-qa.git"
+  },
+  "author": "DRJ Technologies",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "@axe-core/playwright": "^4.10.0"
+  },
+  "peerDependencies": {
+    "@playwright/test": ">=1.40.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "typescript": "^5.7.0"
+  }
+}
