@@ -1,6 +1,6 @@
 # playwright-opus-qa
 
-<!-- DRJ:CONTEXT BEGIN v=27acdf3 — generated from DRJ-Technologies/drj-context; do not edit here -->
+<!-- DRJ:CONTEXT BEGIN v=50aa751 — generated from DRJ-Technologies/drj-context; do not edit here -->
 > **Parent context:** [DRJ-Technologies/drj-context](https://github.com/DRJ-Technologies/drj-context)
 > is canonical for DRJ platform patterns, preferences, and laws.
 > Read it in full: `gh repo clone DRJ-Technologies/drj-context`
@@ -17,10 +17,10 @@ output. Reference a secret by its location, never its value. → `laws.md#secret
 building on it. A wrong flag usually *succeeds* and returns plausible output
 measuring the wrong thing. → `operating.md`
 
-**GitHub** — `gh auth switch -u dan-island` before any DRJ remote operation
-(`mini-dan` for MiniMastery). If a push fails with `Permission denied
-(publickey)` the SSH agent is down; use the gh-credential wrapper rather than
-working around it. → `patterns.md#git-and-github`
+**GitHub** — use `gh` for remote operations, and confirm `gh auth status` shows
+an account with DRJ access before pushing. If a push fails with `Permission
+denied (publickey)` the SSH agent is down; use the gh-credential wrapper rather
+than working around it. → `patterns.md#git-and-github`
 
 **Branches** — `agent/<slug>-YYYYMMDD`; other prefixes for human-initiated work.
 The date suffix is not optional. Commit subjects use conventional-commit
