@@ -1,6 +1,6 @@
 # Agent Instructions
 
-<!-- DRJ:CONTEXT BEGIN v=aa2a4b6 — generated from DRJ-Technologies/drj-context; do not edit here -->
+<!-- DRJ:CONTEXT BEGIN v=acd1742 — generated from DRJ-Technologies/drj-context; do not edit here -->
 > **Parent context:** [DRJ-Technologies/drj-context](https://github.com/DRJ-Technologies/drj-context)
 > is canonical for DRJ platform patterns, preferences, and laws.
 > Read the authenticated repository through `gh api` or its registered linked worktree.
@@ -39,10 +39,10 @@ symlink to it. After creating one, verify `git ls-files -s CLAUDE.md` prints
 mode `120000` — a `core.symlinks=false` checkout silently commits a text file
 instead and looks fine locally. → `patterns.md#agent-files`
 
-**Roadmaps** — contribute material progress and evidence to the project's
-canonical roadmap as work proceeds. When authorized, publish its browser view
-and verify the served revision in Chrome/Chromium before claiming rollout.
-→ `operating.md#keep-roadmaps-and-browser-views-current`
+**Roadmaps/docs** — update only for material shifts that merged code, PRs and receipts
+don't already document; batch them (a few per day at most), never one docs PR per merge
+or milestone. When authorized, publish the browser view and verify the served revision
+in Chrome/Chromium. → `operating.md#keep-roadmaps-and-browser-views-current`
 
 **Storybook** — in a repo with a catalog: component change ⇒ story change ⇒ story tests
 green ⇒ story ids cited in the PR. → `operating.md#keep-the-component-catalog-current`
