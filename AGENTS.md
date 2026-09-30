@@ -1,6 +1,6 @@
 # Agent Instructions
 
-<!-- DRJ:CONTEXT BEGIN v=c8c8371 — generated from DRJ-Technologies/drj-context; do not edit here -->
+<!-- DRJ:CONTEXT BEGIN v=d5f6593 — generated from DRJ-Technologies/drj-context; do not edit here -->
 > **Parent context:** [DRJ-Technologies/drj-context](https://github.com/DRJ-Technologies/drj-context)
 > is canonical for DRJ platform patterns, preferences, and laws.
 > Read the authenticated repository through `gh api` or its registered linked worktree.
@@ -47,7 +47,7 @@ and verify the served revision in Chrome/Chromium before claiming rollout.
 **Storybook** — in a repo with a catalog: component change ⇒ story change ⇒ story tests
 green ⇒ story ids cited in the PR. → `operating.md#keep-the-component-catalog-current`
 
-**Worktrees/tasks** — agents own linked worktrees grouped under the real repo.
+**Worktrees/tasks** — agents own linked worktrees; keep each team together in its project workspace.
 Leads accept tested-head task receipts before worker cleanup; preserve source/history.
 → `operating.md#lead-owned-task-receipts-and-passive-events`, `#agent-completion-and-workspace-closure`
 <!-- DRJ:CONTEXT END -->
