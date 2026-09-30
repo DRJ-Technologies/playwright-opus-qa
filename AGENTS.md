@@ -1,6 +1,6 @@
 # Agent Instructions
 
-<!-- DRJ:CONTEXT BEGIN v=c8c8371 — generated from DRJ-Technologies/drj-context; do not edit here -->
+<!-- DRJ:CONTEXT BEGIN v=aa2a4b6 — generated from DRJ-Technologies/drj-context; do not edit here -->
 > **Parent context:** [DRJ-Technologies/drj-context](https://github.com/DRJ-Technologies/drj-context)
 > is canonical for DRJ platform patterns, preferences, and laws.
 > Read the authenticated repository through `gh api` or its registered linked worktree.
@@ -10,11 +10,11 @@
 
 ## DRJ org context (synced — edit in drj-context, never here)
 
+**Environment** — identify the session manager first; Herdr commands/paths/sweeps require verified Herdr scope. AgentDeck keeps its own setup. → `operating.md#environment-and-session-manager`
 **Secrets** — never print/log/commit credentials; reference locations, not values. → `laws.md#secrets`
 **Teams** — create/own your members and reviewers; never share across teams. Only leads communicate across teams; members may inspect read-only. → `operating.md#team-ownership-and-cross-team-boundaries`
 **Unfamiliar tools** — read the real interface and prove it on one row first; plausible output can be wrong. → `operating.md`
-**Model allocation** — consider Astra 6/xhigh, Sol 6.1/xhigh, Opus 5.5 and Fable 5.1 using task evidence and fresh capacity. → `operating.md#herdr-workflows-model-and-account-aware-planning`
-
+**Model allocation** — consider Astra 6/xhigh, Sol 6.1/xhigh, Opus 5.5 and Fable 5.1 using task evidence and fresh capacity. → `operating.md#model-and-account-aware-planning`
 **GitHub** — use `gh` and verify DRJ access before pushing; on SSH-agent failure use the
 `gh` credential wrapper. → `patterns.md#git-and-github`
 
@@ -47,7 +47,7 @@ and verify the served revision in Chrome/Chromium before claiming rollout.
 **Storybook** — in a repo with a catalog: component change ⇒ story change ⇒ story tests
 green ⇒ story ids cited in the PR. → `operating.md#keep-the-component-catalog-current`
 
-**Worktrees/tasks** — agents own linked worktrees grouped under the real repo.
+**Worktrees/tasks** — agents own linked worktrees; keep each team together in its project workspace.
 Leads accept tested-head task receipts before worker cleanup; preserve source/history.
 → `operating.md#lead-owned-task-receipts-and-passive-events`, `#agent-completion-and-workspace-closure`
 <!-- DRJ:CONTEXT END -->
