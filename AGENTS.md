@@ -1,6 +1,6 @@
 # Agent Instructions
 
-<!-- DRJ:CONTEXT BEGIN v=fc33187 — generated from DRJ-Technologies/drj-context; do not edit here -->
+<!-- DRJ:CONTEXT BEGIN v=b436225 — generated from DRJ-Technologies/drj-context; do not edit here -->
 > **Parent context:** [DRJ-Technologies/drj-context](https://github.com/DRJ-Technologies/drj-context)
 > is canonical for DRJ platform patterns, preferences, and laws.
 > Read the authenticated repository through `gh api` or its registered linked worktree.
@@ -12,7 +12,7 @@
 
 **Environment** — identify the session manager first; Herdr commands/paths/sweeps require verified Herdr scope. AgentDeck keeps its own setup. → `operating.md#environment-and-session-manager`
 **Secrets** — never print/log/commit credentials; reference locations, not values. → `laws.md#secrets`
-**Teams** — autonomous: create/own your members, reviewers and infrastructure (provision your own through approved paths; never block on a global agent's queue; shared foundations are delegated or self-service); never share workers across teams. Bias toward N parallel coders (one per independent PR; serialize only real dependencies) and one independent reviewer per PR, launched with project context and the author's review brief. Only leads communicate across teams; members may inspect read-only. → `operating.md#team-ownership-and-cross-team-boundaries`
+**Teams** — autonomous: own your members, reviewers and infrastructure; app teams may change and roll out platform systems for their usage through approved paths with their own identities. Coordinate actual shared conflicts lead-to-lead; no global queue approval or default maintenance ceremony. Preserve review/CI/main-only provenance/holds; never replay or interrupt other owners' operations. Never share workers; bias toward N independent coders and one reviewer per PR with project context and an author brief. Only leads communicate across teams; members inspect read-only. → `operating.md#team-ownership-and-cross-team-boundaries`
 **Unfamiliar tools** — read the real interface and prove it on one row first; plausible output can be wrong. → `operating.md`
 **Model allocation** — consider Astra 6/xhigh, Sol 6.1/xhigh, Opus 5.5 and Fable 5.1 using task evidence and fresh capacity. → `operating.md#model-and-account-aware-planning`
 **GitHub** — use `gh` and verify DRJ access before pushing; on SSH-agent failure use the
