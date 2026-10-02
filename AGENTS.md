@@ -1,6 +1,6 @@
 # Agent Instructions
 
-<!-- DRJ:CONTEXT BEGIN v=d5e616c — generated from DRJ-Technologies/drj-context; do not edit here -->
+<!-- DRJ:CONTEXT BEGIN v=a526e3c — generated from DRJ-Technologies/drj-context; do not edit here -->
 > **Parent context:** [DRJ-Technologies/drj-context](https://github.com/DRJ-Technologies/drj-context)
 > is canonical for DRJ platform patterns, preferences, and laws.
 > Read the authenticated repository through `gh api` or its registered linked worktree.
@@ -29,9 +29,9 @@ The date suffix is required; use conventional commit subjects. → `patterns.md#
 append `|| true` so a correct command doesn't report `Status: Failed`.
 → `patterns.md#ssm-command-escaping`
 
-**Docs** — durable rules in `AGENTS.md`, procedures in `docs/runbooks/`, dated
-work products in `docs/log/`. `docs/log/` is **never current posture**. If the
-agent file and a runbook disagree, **the runbook wins**.
+**Docs** — short instruction routers; one canonical runbook per distinct recurring
+operation. Link, don't copy; edit in place, retire obsolete duplicates and fix links.
+Keep current status compact; PR/CI records hold routine detail. Historical logs are not current posture; runbooks win over drifting agent files.
 → `patterns.md#documentation-structure`
 
 **Agent files** — `AGENTS.md` is canonical and real; `CLAUDE.md` is a git
