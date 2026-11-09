@@ -1,0 +1,18 @@
+{
+  "schema": "drj-checks/v1",
+  "suites": [
+    {
+      "id": "build",
+      "check_name": "build",
+      "module": ".dagger",
+      "function": "check",
+      "architecture": "amd64",
+      "profile": "standard",
+      "timeout_seconds": 1800,
+      "events": ["pull_request", "merge_group"],
+      "source": "merge",
+      "paths": [],
+      "required_contexts": []
+    }
+  ]
+}
